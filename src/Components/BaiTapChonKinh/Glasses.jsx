@@ -42,6 +42,26 @@ export default class GlassFooter extends Component {
                                     <div />
                                     <div>
                                         <div className="vglasses__model" id="avatar">
+                                            <img className="imge-fluid" src="./glassesImage/v1.png" alt="" />
+                                        </div>
+                                        <div className="vglasses__info">
+                                            <p className='glasses-title'>
+                                                GUCCI G8850U
+                                            </p>
+                                            <p className='glasses-desc'>
+                                                Light pink square lenses define these sunglasses, ending with amother of pearl effect tip.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-5 vglasses__right p-0">
+                                <div className="vglasses__card">
+                                    <div className="vglasses__model" />
+                                    <img className="card-img-top" src="./glassesImage/model.jpg" alt="" />
+                                    <div />
+                                    <div>
+                                        <div className="vglasses__model" id="avatar">
                                             <img className="imge-fluid" src={glassesDetail.url} alt="" />
                                         </div>
                                         <div className="vglasses__info">
@@ -53,13 +73,6 @@ export default class GlassFooter extends Component {
                                             </p>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div className="col-5 vglasses__right p-0">
-                                <div className="vglasses__card">
-                                    <div className="vglasses__model" />
-                                    <img className="card-img-top" src="./glassesImage/model.jpg" alt="" />
-                                    <div />
                                 </div>
                             </div>
                         </div>
